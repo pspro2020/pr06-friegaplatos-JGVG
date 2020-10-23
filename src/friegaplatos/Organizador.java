@@ -7,7 +7,7 @@ public class Organizador implements Runnable {
     Bandeja alacena;
     String nombre;
 
-    public Organizador(Bandeja alacena, Bandeja bandeja_secos) {
+    public Organizador(Bandeja bandeja_secos, Bandeja alacena) {
         this.alacena = alacena;
         this.bandeja_secos = bandeja_secos;
         nombre = "Organizador";
